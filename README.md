@@ -29,7 +29,7 @@
 13.	Masukkan sebagai Label . Klik tombol Ekspresi di sebelah Filter .Renewable fuel
 
 14.	Dalam dialog Pembuat String Ekspresi , masukkan ekspresi berikut dan klik OK . Di sini kami mengelompokkan beberapa kategori energi terbarukan ke dalam satu kategori.
-          “primary_fuel” IN(‘Biomass’,’Geothermal’, ‘Hydro’,’solar,’Wind’,’Storage’,’Wave and Tidal’)
+         ===> “primary_fuel” IN(‘Biomass’,’Geothermal’, ‘Hydro’,’solar,’Wind’,’Storage’,’Wave and Tidal’)
           
 15.	Gulir ke bawah dan klik Penanda sederhana . Pilih warna Isi yang sesuai . Setelah selesai, klik tombol Kembali .
 
@@ -40,7 +40,7 @@
 18.	Masukkan sebagai Label . Klik tombol Ekspresi di sebelah Filter .Non-renewable fuel
 
 19.	Dalam dialog Pembuat String Ekspresi , masukkan ekspresi berikut dan klik OK .
-        "primary_fuel" IN ('Coal', 'Gas', 'Nuclear', 'Oil', 'Petcoke')
+        ===> "primary_fuel" IN ('Coal', 'Gas', 'Nuclear', 'Oil', 'Petcoke')
         
 20.	Gulir ke bawah dan klik Penanda sederhana . Pilih warna Isi yang sesuai . Setelah selesai, klik tombol Kembali .
 
@@ -53,7 +53,7 @@
 24.	Klik tombol Penimpaan yang ditentukan data di sebelah Ukuran . Pilih Sunting .
 
 25.	Karena kapasitas pembangkit listrik sangat bervariasi di antara kumpulan data kami, cara yang efektif untuk mendapatkan rentang ukuran yang kecil adalah dengan menggunakan log10fungsi. Anda dapat bereksperimen dengan ekspresi yang berbeda untuk sampai pada apa yang terbaik untuk visualisasi pilihan Anda. Masukkan ekspresi berikut dan klik OK .
-     log10("capacity_mw") + 1
+    ===> log10("capacity_mw") + 1
      
 26.	Ulangi proses yang sama untuk aturan lainnya.
 
